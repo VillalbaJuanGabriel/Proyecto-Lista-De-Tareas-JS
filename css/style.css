@@ -1,0 +1,64 @@
+/* Estilos Generales. */
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+}
+
+/* Estilos del Encabezado Principal. */
+
+h1 {
+    text-align: center;
+    color:rgb(73, 202, 56)
+}
+
+/* Estilo del Contenedor del Campo de Texto y su Botón. */
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos del Campo de Texto. */
+
+input[type="text"]{
+    padding: 12px;
+    margin-right: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* Estilo de los Botones. */
+
+button {
+    border: none;
+    background-color: rgb(73, 202, 56);
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(23, 179, 2);
+    padding: 8px;
+    border: none;
+}
+
+/* Estilos de la Lista. */
+
+ul {
+    text-align: center;
+    margin-top: 16px;
+}
+
+li {
+    color: white;
+    font-weight: bolder;
+    list-style-type: none;
+    margin: 16px;
+}
